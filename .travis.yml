@@ -21,3 +21,5 @@ script:
   - cargo test
   - cargo doc
   - cargo fmt --all -- --check
+cache:
+  cargo: true
